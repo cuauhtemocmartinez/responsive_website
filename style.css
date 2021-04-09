@@ -55,6 +55,10 @@ nav {
 }
 .introduction {
   background: lightblue; /* delete later */
+  flex: 1;
+}
+.cover {
+  flex: 1;
 }
 .cover img {
   height: 60vh;
