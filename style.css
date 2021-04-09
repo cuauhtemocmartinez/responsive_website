@@ -44,4 +44,5 @@ nav {
 .cart {
   background: rgb(156, 37, 21); /* delete later */
   flex: 1;
+  justify-content: flex-end;
 }
