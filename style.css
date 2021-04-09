@@ -6,3 +6,19 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+header {
+  display: flex;
+  background: lightblue; /* delete later */
+  width: 90%;
+  margin: auto;
+}
+
+.logo-container {
+  background: lightblue;
+}
+nav {
+  background: rgb(189, 230, 173);
+}
+.cart {
+  background: rgb(156, 37, 21);
+}
