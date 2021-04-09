@@ -10,15 +10,20 @@ header {
   display: flex;
   background: lightblue; /* delete later */
   width: 90%;
+  height: 10vh;
   margin: auto;
+  align-items: center;
 }
 
 .logo-container {
-  background: lightblue;
+  background: lightblue; /* delete later */
+  flex: 1;
 }
 nav {
-  background: rgb(189, 230, 173);
+  background: rgb(189, 230, 173); /* delete later */
+  flex: 2;
 }
 .cart {
-  background: rgb(156, 37, 21);
+  background: rgb(156, 37, 21); /* delete later */
+  flex: 1;
 }
