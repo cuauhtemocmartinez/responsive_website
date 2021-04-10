@@ -11,7 +11,6 @@ button {
 }
 header {
   display: flex;
-  background: lightblue; /* delete later */
   width: 90%;
   height: 10vh;
   margin: auto;
@@ -23,7 +22,6 @@ header {
   display: flex;
 }
 .logo-container {
-  background: lightblue; /* delete later */
   flex: 1;
 }
 
@@ -32,7 +30,6 @@ header {
   margin: 5px;
 }
 nav {
-  background: rgb(189, 230, 173); /* delete later */
   flex: 2;
 }
 .nav-links {
@@ -45,7 +42,6 @@ nav {
   text-decoration: none;
 }
 .cart {
-  background: rgb(156, 37, 21); /* delete later */
   flex: 1;
   justify-content: flex-end;
 }
@@ -57,7 +53,6 @@ nav {
   align-items: center;
 }
 .introduction {
-  background: lightblue; /* delete later */
   flex: 1;
 }
 .intro-text h1 {
@@ -96,9 +91,12 @@ nav {
 }
 .cover {
   flex: 1;
+  display: flex;
+  justify-content: center;
+  height: 60vh;
 }
 .cover img {
-  height: 60vh;
+  height: 100%;
   filter: drop-shadow(0px 5px 3px black);
   animation: drop 1.5s ease;
 }
@@ -140,5 +138,38 @@ nav {
   100% {
     opacity: 1;
     transform: translateY(0px);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .presentation {
+    flex-direction: column;
+  }
+  .introduction {
+    margin-top: 5vh;
+    text-align: center;
+  }
+  .intro-text h1 {
+    font-size: 30px;
+  }
+  .intro-text p {
+    font-size: 18px;
+  }
+  .cta {
+    padding: 10px 0px 0px 0px;
+  }
+  .laptop-select {
+    bottom: 5%;
+    right: 50%;
+    width: 50%;
+    transform: translate(50%, 5%);
+  }
+  .cover img {
+    height: 80%;
+  }
+  .small-circle,
+  .medium-circle,
+  .big-circle {
+    opacity: 0.2;
   }
 }
